@@ -3,6 +3,7 @@ import {createBrowserRouter, RouterProvider, Outlet} from 'react-router-dom';
 import Root from './routes/root';
 import Post from './routes/post';
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 
 const HeaderLayout = () => (
   <>
