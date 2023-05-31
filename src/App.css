@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.container{
+  margin: 5vh 20vw;
+}
+
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -18,4 +22,25 @@
 
 .date {
   font-weight: initial;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 5vh;
+  margin-bottom: 5vh;
+  position: relative;
+  /* border-bottom: solid 1px; */
+}
+
+li:before {
+  content : "";
+  position: absolute;
+  left    : 25%;
+  bottom  : 0;
+  height  : 1px;
+  width   : 50%;  /* or 100px */
+  border-bottom:1px solid black;
 }
