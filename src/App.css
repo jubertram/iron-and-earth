@@ -1,17 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@400&display=swap');
+/* GENERAL */
+body{
+  font-family: 'Newsreader', serif;
+  font-size: large;
+}
+html {
+	scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
 
 .container{
   margin: 5vh 20vw;
+  scroll-behavior: smooth;
 }
 
+h1 {
+  margin: 0;
+}
+
+/* ROOT PAGE */
+.hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.584),rgba(0,0,0,0.4)), url('https://images.pexels.com/photos/9566299/pexels-photo-9566299.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  height: calc(100vh - 60px);
+  padding: 0 20vh;
+  text-align: left;
+}
+
+.hero h1 {
+  padding-top: 30vh;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #F58F29;
+  border-radius: 0.6em;
+  color: #F58F29;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  width: 170px;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    outline: 0;
+  }
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  &:hover {
+    box-shadow: 0 0 40px 40px #F58F29 inset;
+  }
+}
+
+/* NAVBAR */
 .navbar{
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 5vw;
   border-bottom: solid 1px;
+  height: 60px;
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  background-color: rgba(250, 250, 250, 0.9);
 }
 
 .nav-link a{
@@ -20,10 +101,11 @@
   color: black;
 }
 
-.date {
-  font-weight: initial;
+#last-post {
+  height: 60px;
 }
 
+/* ARTICLESLIST COMPONENT */
 ul {
   list-style: none;
 }
@@ -32,7 +114,6 @@ li {
   padding-bottom: 5vh;
   margin-bottom: 5vh;
   position: relative;
-  /* border-bottom: solid 1px; */
 }
 
 li:before {
@@ -43,4 +124,18 @@ li:before {
   height  : 1px;
   width   : 50%;  /* or 100px */
   border-bottom:1px solid black;
+}
+
+/* ARTICLE COMPONENT */
+.article p {
+  text-align: justify;
+  text-indent: 30px;
+}
+
+.date {
+  font-weight: initial;
+}
+
+img {
+  max-width: 100%;
 }

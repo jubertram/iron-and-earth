@@ -7,9 +7,7 @@ import Footer from './components/Footer';
 
 const HeaderLayout = () => (
   <>
-    <header>
-      <Navbar />
-    </header>
+    <Navbar />
     <Outlet />
   </>
 );
