@@ -95,6 +95,9 @@ h1 {
   background-color: rgba(250, 250, 250, 0.9);
 }
 
+.nav-link{
+  display: flex;
+}
 .nav-link a{
   text-decoration: none;
   margin-left: 10px;
@@ -104,6 +107,22 @@ h1 {
 .nav-link a:hover{
   text-decoration: underline;
 }
+
+.nav-link button{
+  text-decoration: none;
+  margin-left: 10px;
+  padding-left: 10px;
+  font-family: 'Newsreader', serif;
+  border: none;
+  background-color: transparent;
+  border-left: black solid 2px;
+  font-size: large;
+}
+
+.nav-link button:hover{
+  color: #F58F29;
+}
+
 
 
 #last-post {
