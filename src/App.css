@@ -101,8 +101,33 @@ h1 {
   color: black;
 }
 
+.nav-link a:hover{
+  text-decoration: underline;
+}
+
+
 #last-post {
   height: 60px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #F58F29;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+footer a:hover{
+  color: rgb(47, 47, 47);
 }
 
 /* ARTICLESLIST COMPONENT */

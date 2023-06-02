@@ -9,6 +9,7 @@ const HeaderLayout = () => (
   <>
     <Navbar />
     <Outlet />
+    <Footer />
   </>
 );
 
