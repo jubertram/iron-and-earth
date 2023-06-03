@@ -1,0 +1,46 @@
+{
+  "general": {
+    "by": "by",
+    "lastPost": "New Post",
+    "summary": "Summary"
+  },
+  "hero": {
+    "title": "Welcome to my blog",
+    "content": "I will post here psychology articles that I find interesting! I hope you'll enjoy.",
+    "button": "Let's go!"
+  },
+  "navbar": {
+    "title": "Julien's Blog",
+    "home": "Home",
+    "posts": "Posts"
+  },
+  "footer": {
+    "portfolio": "Visit my portfolio"
+  },
+  "articles": [
+    {
+      "id": 0,
+      "title": "Motivation strategy (part 1)",
+      "date": "23 may 2006",
+      "content": "Regularly, the judgments and analyzes that we make about others or ourselves, identify what seems to be a fundamental gap, an apparent failure of the will of the individual: the lack of motivation. The desire to change oneself, or to help others to change, by learning new knowledge or techniques, comes up against resistance. Teachers are sometimes disappointed to see their students stagnate when they feel they are giving their best. Athletes wishing to improve their performance can only see the failure of their efforts to progress. Parents worry about seeing their child lose interest in school. In many areas (sports, professional, sentimental…), we often notice, and bitterly, our own lack of motivation to accomplish a task. What generates this lack of motivation? Can we consider that unmotivated people are naturally unfit? Does the other (or myself), the one who fails, have the “failure gene” in him? In order to better understand what concerns us, it would be wiser to speak of a lack of method rather than a lack of motivation. Because, as we will see, the method creates the motivation. Those who act successfully have worked out, consciously or not, an effective method. We must indeed establish a strategy for any attempt to improve in an area of ​​our existence that is important to us. But how to establish an effective strategy? How to “hold on”, stay motivated in the face of difficulties, boredom? What makes a teaching quickly bear fruit or fail, struggling to advance students? The purpose of the following text is to deepen our reflection through the examination of a particular case: the desire to improve one's athletic abilities through bodybuilding.",
+      "author": "Olivier Lafay",
+      "image": "https://olivier-lafay.com/app/uploads/2019/03/faire-camino-santiago-hiver.jpg"
+    },
+    {
+      "id": 1,
+      "title": "Motivation strategy (part 2)",
+      "date": "25 may 2006",
+      "content": "Fighting Entropy. Our first article sought to highlight the relationship between motivation and method. It emerged from our analysis that the creation of an effective method required taking as its foundation the will to overcome resistance to change by developing a feeling of control. The notion of method is different from that of strategy. The two terms should not be confused. After having defined them, we will, by examining the concept of entropy, propose a reflection on the concept of “individual strategy”. This reflection cannot be deep enough without understanding the previously elucidated notions of homeostasis, resistance to change and sense of control. In order to perceive the major issues of such a reflection, it may be useful to reread, beforehand, the previous article (Brief analysis of the relationship between motivation and method). Let's start by defining method and strategy in order to know how to differentiate them. Method: logically ordered set of principles, rules, steps to achieve a result.",
+      "author": "Olivier Lafay",
+      "image": "https://olivier-lafay.com/app/uploads/2019/01/23537-300x300.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Repeat till you die",
+      "date": "18 january 2012",
+      "content": "Freud speaks of “repetition compulsion”, Levine speaks of “reenactment”, Watzlawick speaks of “always more of the same thing”. We could also cite Karli, Lipton, Selye, Rossi, etc., all of whom have approached this subject in their own way. It is our tendency to want to repeat a situation (where we have been put in difficulty) as often as possible, hoping, in the end, to win. It is an unconscious process, which is based on deep animal roots. Knowledge makes it possible to seek other paths. Not to know it is to kneel down, to humiliate oneself while thinking of fighting: constantly returning to a confrontation in which one has been defeated, hoping to win the case in the end. All this by overbidding each time, telling ourselves that if the strategy has failed so far, it's because we haven't done enough. Incapable of telling oneself that, if one has failed, it is only because the strategy is bad. But those who are caught in this gear cannot, because their limited horizon (lack of critical perspective) only allows them this strategy. It is therefore a snake that bites its tail harder and harder... It is the fly that constantly bumps against the window, while a slight lateral flight of a few cm would allow it to envisage the exit, where the window is slightly open. The image is therefore that of an infernal circle from which we must get out, and this is done by being creative, open, by reflecting on our conditioning. My in-depth articles on the blog are intended to provide elements to overcome these situations. Because getting out of an infernal circle means being able to progress in general, and not just in bodybuilding. This will thus avoid monomania (obsessive bodybuilding type) and doping (which is the saving tool of those who stumble against a wall, repeatedly, thinking that it is physiological, when it is much more than That). This will avoid repeated injuries, compulsive hate attacks that enslave the one you hate and stifle creativity. When a problem arises in bodybuilding, the mistake is to seek its solution only in the specific field of bodybuilding.",
+      "author": "Olivier Lafay",
+      "image": "https://olivier-lafay.com/app/uploads/2012/01/1460.jpg"
+    }
+  ]
+}

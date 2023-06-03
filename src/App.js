@@ -4,6 +4,7 @@ import Root from './routes/root';
 import Post from './routes/post';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import { Suspense } from 'react';
 
 const HeaderLayout = () => (
   <>
@@ -38,4 +39,10 @@ function App() {
   );
 }
 
-export default App;
+export default function WrappedApp() {
+  return (
+    <Suspense fallback="... is loading">
+      <App />
+    </Suspense>
+  );
+}

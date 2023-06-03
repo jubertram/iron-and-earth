@@ -1,22 +1,25 @@
-import Post from '../components/Article';
-import { articles } from '../data'
+import Article from '../components/Article';
+import { useTranslation } from 'react-i18next'
 
-const lastArticle = articles[articles.length - 1];
 
 export default function Root() {
+  const { t, i18n } = useTranslation();
+  const articles = t('articles', { returnObjects: true });
+  const lastArticle = articles[articles.length - 1];
+
   return (
     <>
       <div className='hero'>
-        <h1>Welcome to my blog</h1>
-        <p>I will post here psychology articles that I find interesting! I hope you'll enjoy. </p>
-      <a href="#last-post" className='btn first'>Let's Go!</a>
+        <h1>{t("hero.title")}</h1>
+        <p>{t("hero.content")}</p>
+      <a href="#last-post" className='btn first'>{t("hero.button")}</a>
       </div>
 
       <div id='last-post'></div>
 
-      <div className='container'>
-        <h2>Last Post:</h2>
-        <Post article={lastArticle}/>
+      <div className='container-root'>
+        <h2>{t('general.lastPost')}</h2>
+        <Article article={lastArticle}/>
       </div>
     </>
   );

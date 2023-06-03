@@ -1,9 +1,13 @@
-import {articles} from "../data.js";
 import Article from './Article.jsx';
+import { useTranslation } from 'react-i18next';
 
 export default function ArticlesList() {
+  const { t, i18n } = useTranslation();
+  const articles = t('articles', { returnObjects: true });
+
   const list = articles.map(article =>
-    <li><Article article={article} key={article.id}/></li>
+    <li key={article.id}><Article article={article} /></li>
   );
+
   return <ul>{list}</ul>
 }
