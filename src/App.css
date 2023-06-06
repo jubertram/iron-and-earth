@@ -110,7 +110,7 @@ h1 {
   display: flex;
   flex-direction: column;
   border: solid 1px;
-  height: 70vh;
+  height: 65vh;
   position: fixed;
   overflow-wrap: break-word;
   margin: 4vw 0 0 4vw;
@@ -131,7 +131,7 @@ h1 {
   margin: 10px;
   text-decoration: none;
   color: black;
-  font-size: small;
+  font-size: smaller;
 }
 
 .posts-nav a:hover{
@@ -145,7 +145,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5vw;
+  padding: 0 6vw;
   border-bottom: solid 1px;
   height: 60px;
   position: -webkit-sticky;
@@ -187,20 +187,27 @@ h1 {
 
 footer {
   background-color: #F58F29;
-  height: 60px;
+  height: 110px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 6vw;
+  margin-top: 15vh;
 }
 
 footer a{
   text-decoration: none;
   color: black;
   font-weight: bold;
+  margin-right: 15px;
 }
 
 footer a:hover{
   color: rgb(47, 47, 47);
+}
+
+a svg{
+  font-size: 25px;
 }
 
 /* ARTICLESLIST COMPONENT */
@@ -246,6 +253,7 @@ h4{
 
 img {
   max-width: 100%;
+  margin: 5vh 0;
 }
 
 .anchor {

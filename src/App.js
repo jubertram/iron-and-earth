@@ -6,17 +6,20 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { Suspense } from 'react';
 
-const HeaderLayout = () => (
+function NestedLayout() {
+  return (
   <>
     <Navbar />
     <Outlet />
     <Footer />
   </>
-);
+  );
+}
+;
 
 const router = createBrowserRouter([
   {
-    element: <HeaderLayout />,
+    element: <NestedLayout />,
     children: [
       {
         path: '/',

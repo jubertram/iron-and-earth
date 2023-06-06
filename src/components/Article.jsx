@@ -4,7 +4,7 @@ export default function Article({article}) {
   const { t, i18n } = useTranslation();
   return(
     <div className='article'>
-      <a name={article.date} class='anchor'></a>
+      <a id={article.date}  className='anchor'></a>
       <h3>{article.title} - <span className="date">{article.date}</span></h3>
       <h4>{t('general.by')} {article.author}</h4>
       <div className="image">

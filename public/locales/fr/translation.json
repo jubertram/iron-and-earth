@@ -6,7 +6,7 @@
   },
   "hero": {
     "title": "Bienvenue dans mon blog",
-    "content": "Je posterai ici des articles de psychologies que je trouve intéressant! J'espère que ça va te plaire.  ",
+    "content": "Je partagerai ici des articles de psychologies que je trouve intéressant! J'espère que ça va te plaire.  ",
     "button": "C'est parti!"
   },
   "navbar": {
@@ -19,6 +19,7 @@
   },
   "articles": [
     {
+      "id": 0,
       "title": "Stratégie de la motivation (partie 1)",
       "date": "23 mai 2006",
       "content": "Régulièrement, les jugements et analyses que nous portons sur les autres ou nous-mêmes, identifient ce qui semble être une lacune fondamentale, une défaillance apparente de la volonté de l’individu : le manque de motivation. Le désir de se changer soi-même, ou d’aider l’autre à changer, par l’apprentissage de nouveaux savoirs ou techniques, se heurte à des résistances. Les enseignants sont parfois déçus de voir leurs élèves stagner alors qu’ils ont le sentiment de donner le meilleur d’eux-mêmes. Des athlètes désireux d’améliorer leurs performances ne peuvent que constater l’échec de leurs efforts pour progresser. Des parents s’inquiètent de voir leur enfant se désintéresser de l’école. Dans de nombreux domaines (sportifs, professionnels, sentimentaux…), nous constatons souvent, et amèrement, notre propre manque de motivation pour accomplir une tâche. Qu’est-ce qui génère ce manque de motivation? Peut-on considérer que les personnes non motivées sont «naturellement » inaptes? L’autre (ou moi-même), celui qui échoue, a-t-il le « gène de l’échec » en lui? Afin de mieux comprendre ce qui nous préoccupe, il serait plus judicieux de parler de manque de méthode plutôt que de manque de motivation. Car, comme nous allons le voir, la méthode crée la motivation. Ceux qui agissent avec succès ont élaboré, consciemment ou non, une méthode efficace. Il faut en effet établir une stratégie pour toute tentative d’amélioration dans un domaine de notre existence qui a de l’importance pour nous. Mais comment établir une stratégie efficace? Comment faire pour « tenir bon », rester motivé face aux difficultés, à l‘ennui? Qu’est-ce qui fait qu’un enseignement porte rapidement des fruits ou échoue, peinant à faire progresser les élèves? Le texte qui suit a pour objet d’approfondir notre réflexion au travers de l’examen d’un cas particulier : le désir d’améliorer ses capacités athlétiques par la musculation.",
@@ -26,6 +27,7 @@
       "image": "https://olivier-lafay.com/app/uploads/2019/03/faire-camino-santiago-hiver.jpg"
     },
     {
+      "id": 1,
       "title": "Stratégie de la motivation (partie 2)",
       "date": "25 mai 2006",
       "content": "Lutter contre l’Entropie. Notre premier article cherchait à mettre en évidence les rapports existant entre motivation et méthode. Il ressortait de notre analyse que la création d’une méthode efficace exigeait de prendre pour fondation la volonté de vaincre la résistance au changement en développant le sentiment de contrôle. La notion de méthode est différente de celle de stratégie. Il ne faut pas confondre les deux termes. Après les avoir défini, nous allons, en examinant le concept d’entropie, proposer une réflexion sur le concept de « stratégie individuelle ». Cette réflexion ne peut être suffisamment profonde sans avoir compris les notions précédemment élucidées d’homéostasie, de résistance au changement et de sentiment de contrôle. Afin de percevoir les enjeux majeurs d’une telle réflexion, il pourra être utile de relire, au préalable, l’article précédent (Brève analyse des rapports entre motivation et méthode). Commençons par définir méthode et stratégie afin de savoir les différencier. Méthode : ensemble ordonné de manière logique de principes, de règles, d’étapes permettant de parvenir à un résultat.",
@@ -33,11 +35,44 @@
       "image": "https://olivier-lafay.com/app/uploads/2019/01/23537-300x300.jpg"
     },
     {
+      "id": 2,
+      "title": "Penser les conflits",
+      "date": "3 Janvier 2010",
+      "content": "En guise de vœux pour cette année nouvelle, j’ai décidé de partager avec mes lecteurs quelques citations de Françoise Kourilsky (Docteur en Psychologie, diplômée de Sciences-Po). Janvier 2010 peut être un point de départ pour entreprendre des relations différentes avec les autres, pour rénover notre vision du monde et de l’altérité. Toutes ces citations sont issues de l’ouvrage “du Désir au plaisir de changer” publié chez Dunod. Les conflits résultent des rigidités humaines. Les conflits sont à la base de l’évolution des systèmes vivants. C’est notre manière de les aborder qui les rend menaçants ou féconds, source de blocage, de destruction ou d’évolution. La résolution des conflits, dans ce qu’elle nécessite de réflexion, de choix et de dépassement, nous invite à passer à un niveau logique d’ordre supérieur où pourra être dégagé leur fonction utile d’évolution. Si les conflits résultent le plus souvent de rapports de force, ils sont aussi liés à l’insatisfaction, à la frustration, à la dévalorisation ou à l’ennui. Face à un travail insatisfaisant, ou à des relations routinières non gratifiantes, le recours au conflit peut apporter quelque excitation. Il s’agit donc de savoir si l’on souhaite changer les choses ou punir l’autre en le faisant perdre. Il s’agit donc de savoir si l’on souhaite changer les choses ou punir l’autre en le faisant perdre. Les individus en conflit se comportent en effet en véritables robots, en “machines triviales” : leurs comportements deviennent tellement prévisibles et leurs options tellement restreintes qu’il devient possible de devancer leurs récits pour leur indiquer, de manière provocatrice, comment ils 'ont dû fonctionner'. Les conflits sont entretenus par nos comportement répétitifs qui nous emprisonnent dans des cercles vicieux. Nombre de conflits se perpétuent par le fait même que nous n’utilisons plus ce qui caractérise notre dimension humaine, à savoir l’autonomie où précisément réside notre créativité.",
+      "author": "Olivier Lafay",
+      "image": "https://olivier-lafay.com/app/uploads/2010/01/5374-2048x1152.jpeg"
+    },
+    {
+      "id": 3,
       "title": "Répéter jusqu’à en mourir",
       "date": "18 Janvier 2012",
       "content": "Freud parle de “compulsion de répétition”, Levine parle de “remise en actes”, Watzlawick parle de “toujours plus de la même chose”. On pourrait également citer Karli, Lipton, Selye, Rossi, etc, qui tous ont abordé ce sujet à leur manière. Il s’agit de notre tendance à vouloir répéter une situation (où nous avons été mis en difficulté) aussi souvent que possible, en espérant, au final, gagner. C’est un processus inconscient, qui s’appuie sur des racines animales profondes.Le savoir permet de chercher d’autres voies. Ne pas le savoir, c’est s’agenouiller, s’humilier en pensant combattre : revenir sans cesse sur une confrontation où l’on a été vaincu, en espérant remporter, au final, l’affaire. Tout cela en faisant dans la surenchère à chaque fois, en se disant que si la stratégie a échoué jusque là, c’est que l’on n’en a pas assez fait. Incapable de se dire que, si l’on a échoué, c’est uniquement parce que la stratégie est mauvaise. Mais ceux qui sont pris dans cet engrenage ne le peuvent, car leur horizon limité (manque de recul critique) ne leur permet que cette stratégie. C’est donc un serpent qui se mord la queue de plus en plus fort… C’est la mouche qui bute sans cesse contre la vitre, alors qu’un léger vol latéral de quelques cm lui permettrait d’envisager la sortie, là où la fenêtre est légèrement ouverte. L’image est donc celle d’un cercle infernal dont il faut sortir, et cela se fait en étant créatif, ouvert, en réfléchissant à nos conditionnements.  Mes articles de fond sur le blog ont pour objet d’apporter des éléments permettant de dépasser ces situations. Car sortir d’un cercle infernal, c’est pouvoir progresser de manière générale, et pas seulement en musculation. Cela évitera ainsi la monomanie (type bodybuilding obsessionnel) et le dopage (qui est l’outil “salvateur” de ceux qui butent sur un mur, de manière répétitive, en pensant qu’il est physiologique, alors que c’est bien plus que ça). Cela évitera les blessures à répétition, les agressions haineuses compulsives qui rendent esclave de celui que l’on hait et qui étouffent la créativité. Quand un problème se pose en musculation, l’erreur est de chercher sa solution uniquement dans le domaine spécifique de la musculation.",
       "author": "Olivier Lafay",
       "image": "https://olivier-lafay.com/app/uploads/2012/01/1460.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Introspection du premier jour",
+      "date": "1 Janvier 2013",
+      "content": "Vouloir jouer à un jeu sans en connaître les règles semble absurde, n’est-ce pas?  Pourtant, du point de vue relationnel, c’est ce que nous faisons presque tous, presque tout le temps. Quand deux personnes sont en relation, si les deux ne connaissent pas les règles de la relation, celle-ci sera bien souvent source de conflits et de frustration. Quand deux personnes sont en relation et qu’une seule connaît les règles, il y a possibilité pour celle qui les connaît de manipuler et d’influencer la relation (en bien ou en mal). Les règles du jeu peuvent mener à la coopération ou à la compétition. A la construction, au maintien ou à la destruction. C’est valable pour la relation avec votre corps (lors de la musculation, puisque c’est ce qui nous intéresse ici).",
+      "author": "Olivier Lafay",
+      "image": "https://olivier-lafay.com/app/uploads/2013/01/19599-1024x681.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Petit théorème constructiviste",
+      "date": "31 mai 2013",
+      "content": "Que vois-je par le trou de la serrure? Mon propre regard. “Quand nous réagissons aux paroles et aux actes de quelqu’un, nous ne faisons pas que réagir à ces paroles et à ces actes. Nous réagissons aussi (et même davantage) à l’idée que nous nous faisons de la situation. Entre notre perception et notre réaction, il y a nos représentations, donc notre éducation et nos croyances.  Avant même nos perceptions, il y a nos représentations. Les représentations (et donc la subjectivité) orientent nos perceptions et nos réactions.  Nous réagissons un peu à l’autre, beaucoup à nous-mêmes.” Vers l’âge de deux ans, l’enfant est capable de dire “je”, et donc de se distinguer du monde et de se raconter. Il entre alors dans le monde des représentations du monde. En grandissant, il va paradoxalement penser qu’il peut être “objectif”, qu’il voit le monde “tel qu’il est”, puisqu’il se sent séparé (comme un observateur qui verrait le monde “réel” se déployer, depuis le trou d’une serrure, alors que lui-même resterait immobile et inchangé). Ce qu’il “voit”, ce sont en fait ses représentations.",
+      "author": "Olivier Lafay",
+      "image": "https://olivier-lafay.com/app/uploads/2014/11/serrure_zpsa949a396.jpg"
+    },
+    {
+      "id": 6,
+      "title": "L'écologie des relations, c'est quoi?",
+      "date": "21 juin 2021",
+      "content": "(couple, famille, travail) Etre écologique, c’est respecter les règles d’un écosystème. L’individu est un écosystème. L’enfance de cet individu est un écosystème. C’est-à-dire que c’est un ensemble d’éléments en interaction dynamique, qui s’autorégulent, pour former un tout stable. Vous n’y pensez peut-être pas, mais sans règles d’organisation et d’adaptation propres à l’espèce humaine, nous ne pourrions devenir un individu humain singulier : une forme stable qui est identifiable. Nous serions ou n’importe quoi, changeant tout le temps de forme, ou… rien. Ce tout qu’est l’individu à un moment de sa vie (enfance) est donc soumis à des déterminismes qui imposent des règles de fonctionnement. Et cela s’imposera à lui toute sa vie, peu importe ce qu’il en pense; peu importe ce qu’il en sait. L’écologie, c’est la connaissance des règles de fonctionnement d’un tout autorégulé, soumis aux perturbations environnementales. Et c’est aussi ce qu’on fait pour respecter ce tout. Si l’on n’est pas écologique, l’écosystème se fragilise, périclite, est durablement atteint, voire même : se meurt. Si l’on n’est pas écologique, on peut détruire un enfant, un individu, un couple, une famille, une nation, une espèce… Une planète ! Bref, une vie “bonne”, une vie réussie, n’est pas envisageable sans connaissance, respect et production de l’écologie humaine. Un pas vers une écologie de l’enfance (le livre) permet de produire cette écologie, en se basant sur ce qui fonde l’écosystème humain (sa nature). Il permet aussi de reconstruire cette écologie, quand celle-ci n’a pas été respectée lorsqu’on était enfant. L’on y apprend aussi que l’écologie de l’enfant s’inscrit dans dans des écologies plus globales (individu, espèce, société). L’on apprend ainsi à penser l’enfant inscrit dans sa famille, elle-même issue du couple, inscrit dans la société, inscrite dans les règles du vivant (celles de l’espèce, comme celles gérant les rapports du vivant au niveau planétaire). Ainsi, Vers une écologie de l’enfance ne nous apprend pas seulement les règles de construction d’un enfant sain, mais éclaire aussi sur le fonctionnement sain de la famille et du couple. Et permet d’avoir un point de vue “méta” sur les relations en général. Cessez de buter contre la vitre, comme la mouche, qui aspire à enfin retrouver la liberté. Car la fenêtre est ouverte, à quelques centimètres de vous.",
+      "author": "Olivier Lafay",
+      "image": "https://olivier-lafay.com/app/uploads/2021/06/203462977_10226015861522563_7147910642793618778_n.jpg"
     }
   ]
 }

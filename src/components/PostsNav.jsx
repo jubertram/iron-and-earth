@@ -5,7 +5,7 @@ export default function PostsNav(){
   const articles = t('articles', { returnObjects: true });
 
   const links = articles.map(article =>
-    <a href={`#${article.date}`}>{article.title}</a>
+    <a href={`#${article.date}`} key={article.id}>{article.id + 1} - {article.title}</a>
   );
 
   return (
