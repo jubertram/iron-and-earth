@@ -4,18 +4,20 @@ import Root from './routes/root';
 import Posts from './routes/posts';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ScrollToTop from "./components/ScrollToTop";
 import { Suspense } from 'react';
+
+
 
 function NestedLayout() {
   return (
-  <>
+  <ScrollToTop>
     <Navbar />
     <Outlet />
     <Footer />
-  </>
+  </ScrollToTop>
   );
-}
-;
+};
 
 const router = createBrowserRouter([
   {
