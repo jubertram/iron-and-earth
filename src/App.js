@@ -11,11 +11,11 @@ import { Suspense } from 'react';
 
 function NestedLayout() {
   return (
-  <ScrollToTop>
-    <Navbar />
-    <Outlet />
-    <Footer />
-  </ScrollToTop>
+    <ScrollToTop>
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </ScrollToTop>
   );
 };
 
