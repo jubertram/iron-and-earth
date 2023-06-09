@@ -1,10 +1,10 @@
 import ArticlesList from '../components/ArticlesList';
-import PostsNav from '../components/PostsNav';
+import ArticlesNav from '../components/ArticlesNav';
 
-export default function Post() {
+export default function Posts() {
   return(
     <>
-    <PostsNav />
+    <ArticlesNav />
     <div className='container-posts'>
       <ArticlesList />
     </div>

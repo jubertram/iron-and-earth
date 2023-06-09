@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-export default function PostsNav(){
+export default function ArticlesNav(){
   const { t, i18n } = useTranslation();
   const articles = t('articles', { returnObjects: true });
 

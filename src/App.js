@@ -1,7 +1,7 @@
 import './App.css';
 import {createBrowserRouter, RouterProvider, Outlet} from 'react-router-dom';
 import Root from './routes/root';
-import Post from './routes/post';
+import Posts from './routes/posts';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { Suspense } from 'react';
@@ -26,8 +26,8 @@ const router = createBrowserRouter([
         element: <Root/>
       },
       {
-        path: '/post',
-        element: <Post/>
+        path: '/posts',
+        element: <Posts/>
       }
     ]
   }

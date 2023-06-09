@@ -14,9 +14,6 @@
     "home": "Accueil",
     "posts": "Articles"
   },
-  "footer": {
-    "portfolio": "Visite mon portfolio"
-  },
   "articles": [
     {
       "id": 0,
